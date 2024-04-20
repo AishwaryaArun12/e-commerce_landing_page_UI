@@ -1,13 +1,18 @@
-import { useState } from 'react'
 import './App.css'
+import FirstBlock from './components/FirstBlock'
 import Nav from './components/Nav'
+import SecondBlock from './components/SecondBlock'
+import ThirdBlock from './components/ThirdBlock'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <Nav/>
+       <FirstBlock/>
+       <SecondBlock/>
+       <ThirdBlock/>
     </>
   )
 }

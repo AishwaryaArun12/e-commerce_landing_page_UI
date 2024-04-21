@@ -4,9 +4,9 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 export default function Component() {
   return (
     <Footer container>
-      <div className="w-full p-6">
-        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-        <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+      <div className="w-full lg:p-6">
+        <div className="grid w-full justify-between sm:flex sm:justify-between md:grid-cols-1">
+        <div className="grid col-span-4 lg:grid-cols-3 gap-0 sm:mt-4 grid-cols-3 sm:gap-1">
             <div>
               <Footer.Title title="Home" className="text-black text-lg"/>
               <Footer.LinkGroup col>
@@ -33,11 +33,11 @@ export default function Component() {
                 <Footer.Link href="#" className="text-lg">Terms of Service</Footer.Link>
                 <Footer.Link href="#" className="text-lg">Privacy Policy</Footer.Link>
                 <Footer.Link href="#" className="text-lg">Coockie Policy</Footer.Link>
-                <Footer.Link href="#" className="text-lg py-1"><Footer.Copyright className="text-lg" href="#" by="Hussain™. All rights reserved." year={2024} /></Footer.Link>
+                <Footer.Link href="#" className="text-lg py-1"><Footer.Copyright className="text-lg hidden lg:block" href="#" by="Hussain™. All rights reserved." year={2024} /></Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>
-          <div>
+          <div className=" col-span-8">
           <Footer.Title title="Tranch you later, innovator." className="text-black text-xl pt-5"/>
           <div className="flex justify-between border border-black rounded-tr-2xl">
             <div className="text-base text-gray-600 p-3">Subscribe Now</div>
@@ -45,7 +45,7 @@ export default function Component() {
                 Submit
             </div>
           </div>
-          <div className="w-full sm:flex sm:items-center m-6 sm:justify-between">
+          <div className="w-full sm:flex sm:items-center my-6 sm:justify-between">
           
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="#" icon={BsFacebook} />
@@ -54,6 +54,7 @@ export default function Component() {
             <Footer.Icon href="#" icon={BsGithub} />
             <Footer.Icon href="#" icon={BsDribbble} />
           </div>
+          <Footer.Copyright className="text-lg my-6 lg:hidden " href="#" by="Hussain™. All rights reserved." year={2024} />
         </div>
           </div>
           

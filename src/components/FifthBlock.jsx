@@ -5,8 +5,8 @@ import image9 from '../assets/image9.jpg'
 
 const FifthBlock = () => {
   return (
-    <div className='bg-black relative p-3 py-12 mt-12'>
-        <div className='flex justify-center mt-6'>
+    <div className='bg-black relative p-3 py-12 mt-12 hidden lg:block'>
+        <div className='flex flex-wrap justify-center mt-6'>
             <img src={image9} alt="" className='h-screen rounded-3xl w-72 m-3'/>
             <img src={image8} alt="" className='h-screen rounded-3xl w-72 m-3'/>
             <img src={image9} alt="" className='h-screen rounded-3xl w-72 m-3'/>

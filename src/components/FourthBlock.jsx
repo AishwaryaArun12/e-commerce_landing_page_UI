@@ -19,7 +19,7 @@ const FourthBlock = () => {
                 <h1 className='text-3xl lg:text-6xl mt-3 font-semibold leading-tight'>
                     Make Everyday Extraordinary for your journey
                 </h1>
-                <h1 className='text-lg text-gray-500 my-10 mr-36'>
+                <h1 className='text-lg text-gray-500 my-10 px-3 lg:px-0 lg:mr-36'>
                     Our bikes are statements you can drive daily. Take a Penny to work, to the 
                     gym, for a meetup with friends, You'll be rolling in style.
                 </h1>

@@ -13,8 +13,8 @@ import { Avatar } from "flowbite-react";
 const FirstBlock = () => {
   return (
     <div className=' lg:flex mb-12 sm:block'>
-        <div className='w-full lg:w-6/12 ml-0 lg:ml-10 pl-1'>
-          <h1 className=' text-3xl lg:text-6xl font-semibold mt-9 p-0 lg:p-2 pt-3 text-pretty leading-tight'>Discovering the Undiscovered Charms.</h1>
+        <div className=' lg:w-6/12 ml-0 lg:ml-10 pl-1'>
+          <h1 className=' text-3xl lg:text-6xl font-semibold mt-9 pl-2 lg:p-2 pt-3 text-pretty leading-tight'>Discovering the Undiscovered Charms.</h1>
           <p className='p-2 text-lg text-zinc-500 mr-8'>Provider in Yogyakarta with a sustainable tourism concept, delivering meaningful journey 
             through cycling tours.
           </p>
